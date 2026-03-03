@@ -1,17 +1,42 @@
-# React + Vite
+# Fursa Hospital Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A role-based Hospital Management System built using **React, Supabase, and PostgreSQL**.
 
-Currently, two official plugins are available:
+## Overview
+Fursa is a web application designed to manage hospital workflows with secure authentication and role-based access control.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The system includes separate dashboards for **Doctors** and **Administrators**, ensuring that each role has appropriate permissions within the system.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Secure authentication using Supabase
+- Role-based access control (RBAC)
+- Separate Doctor and Admin dashboards
+- Doctors can prescribe medications
+- Admin users manage system data
+- SQL security policies using Row Level Security (RLS)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Fursa-hospital-management-system
+Frontend:
+- React
+- Vite
+
+Backend & Database:
+- Supabase
+- PostgreSQL
+
+Security:
+- Row Level Security (RLS)
+- Role Based Access Control
+
+## Project Structure
+
+- React frontend interface
+- Supabase authentication
+- SQL scripts for database setup
+- Role based access control policies
+
+## Author
+Danah Almanifi  
+Information Systems Student
