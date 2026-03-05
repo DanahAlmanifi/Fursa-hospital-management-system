@@ -59,9 +59,8 @@ Security:
 
 
 # Admin Panel
-<img width="1440" height="776" alt="admin-view" src="https://github.com/user-attachments/assets/d1192a55-d861-4ba1-9017-315a36ee67f9" />
-
 <img width="1397" height="730" alt="admin-view" src="https://github.com/user-attachments/assets/d0294535-450f-45e6-9300-0d130525c20a" />
+<img width="1440" height="769" alt="admin" src="https://github.com/user-attachments/assets/21649dc2-1adb-42be-8ca8-68f88b12b225" />
 
  
 
